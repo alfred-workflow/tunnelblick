@@ -1,0 +1,51 @@
+{
+    "name": "@alfred-workflows/tunnelblick",
+    "version": "1.0.0",
+    "description": "Alfred workflow for Tunnelblick",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rollup -c --bundleConfigAsCjs",
+        "test": "jest",
+        "build:tsd": "jxa /Applications/Tunnelblick.app -o src/"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "docs",
+        "icon.png",
+        "info.plist",
+        "images"
+    ],
+    "keywords": [
+        "tunnelblick",
+        "alfred",
+        "workflow",
+        "vpn",
+        "alfy"
+    ],
+    "repository": "alfred-workflow/tunnelblick",
+    "author": {
+        "name": "Wang Liang",
+        "email": "850598163@qq.com"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@apple-jxa/cli": "0.0.8",
+        "@apple-jxa/node": "0.0.10",
+        "@apple-jxa/types": "0.0.5",
+        "@rollup/plugin-commonjs": "^24.0.1",
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "@rollup/plugin-typescript": "^11.0.0",
+        "@types/jest": "^29.4.0",
+        "@types/node": "^18.0.0",
+        "jest": "^29.4.3",
+        "rollup": "^3.17.0",
+        "ts-jest": "^29.0.5",
+        "ts-node": "^10.9.1",
+        "tslib": "^2.5.0",
+        "typescript": "^4.7.2"
+    },
+    "dependencies": {
+        "@alfred-workflows/core": "^1.0.5"
+    }
+}
