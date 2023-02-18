@@ -1,6 +1,6 @@
 {
     "name": "@alfred-workflows/tunnelblick",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Alfred workflow for Tunnelblick",
     "main": "dist/index.js",
     "scripts": {
